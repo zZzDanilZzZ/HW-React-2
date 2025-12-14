@@ -16,8 +16,8 @@ function App() {
     setName("")
   }
 
-const removeGuest = () => {
-  setGuests(prev => prev.filter(guest => guest.id != id))
+const removeGuest = (id) => {
+  setGuests(prev => prev.filter(guest => guest.id !== id))
 }
 
 useEffect(() => {
