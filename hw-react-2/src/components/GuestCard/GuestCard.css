@@ -1,0 +1,29 @@
+.guest-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.guest-card:hover {
+  background: #f5f5f5;
+  transform: scale(1.02);
+}
+
+.guest-card__name {
+  font-size: 16px;
+}
+
+.guest-card__delete {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #c00;
+}
+
+.guest-card__delete:hover {
+  color: red;
+}
