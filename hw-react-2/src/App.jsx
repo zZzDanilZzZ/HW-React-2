@@ -17,7 +17,7 @@ function App() {
   }
 
 const removeGuest = () => {
-  setGuests(prev => prev.filter(guest => guest.id !== id))
+  setGuests(prev => prev.filter(guest => guest.id != id))
 }
 
 useEffect(() => {
